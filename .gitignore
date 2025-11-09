@@ -3,5 +3,9 @@
 !.vimrc
 !.config/
 .config/*
+
 !.config/nvim/
 !.config/nvim/**
+
+!.config/wezterm/
+!.config/wezterm/**
