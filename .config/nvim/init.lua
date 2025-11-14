@@ -71,4 +71,13 @@ if not vim.g.vscode then
 	---
 end
 
-vim.opt.signcolumn = "yes"
+vim.o.signcolumn = "yes"
+vim.o.winborder = "rounded"
+vim.o.wrap = false
+
+local undodir = vim.fn.stdpath("state") .. "/undo"
+vim.fn.mkdir(undodir, "p")
+vim.o.undodir = undodir
+vim.o.undofile = true
+
+vim.keymap.set({ "n", "v" }, "<leader>w", "<cmd>bd<cr>")

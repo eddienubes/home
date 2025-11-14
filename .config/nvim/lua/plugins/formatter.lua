@@ -24,7 +24,7 @@ return {
 			},
 		})
 
-        -- that's atl+shift+s dumbass
+		-- that's atl+shift+s dumbass
 		vim.keymap.set({ "n", "v" }, "<A-S-f>", function()
 			conform.format({
 				lsp_fallback = true,
