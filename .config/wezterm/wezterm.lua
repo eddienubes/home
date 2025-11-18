@@ -36,6 +36,21 @@ config.window_frame = {
 }
 config.tab_max_width = 16
 
+-- Format tabs to have fixed width
+wezterm.on('format-tab-title', function(tab, tabs, panes, config, hover, max_width)
+  local title = tab.active_pane.title
+  -- Truncate or pad the title to fixed width
+  local fixed_width = 16
+  if #title > fixed_width then
+    title = title:sub(1, fixed_width - 1) .. '…'
+  else
+    title = title .. string.rep(' ', fixed_width - #title)
+  end
+  return {
+    { Text = ' ' .. title .. ' ' },
+  }
+end)
+
 config.colors = {
 	tab_bar = {
 		inactive_tab_edge = "#000000",
@@ -57,6 +72,10 @@ config.enable_scroll_bar = false
 config.initial_cols = 115
 config.initial_rows = 30
 config.max_fps = 120
+
+-- Allow typing Polish and other accented characters with Option key
+config.send_composed_key_when_left_alt_is_pressed = true
+config.send_composed_key_when_right_alt_is_pressed = true
 
 -- Key bindings for text editor-like navigation
 config.keys = {
