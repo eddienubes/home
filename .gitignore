@@ -9,3 +9,7 @@
 
 !.config/wezterm/
 !.config/wezterm/**
+
+!.claude
+!.claude/skills/
+!.claude/skills/**
