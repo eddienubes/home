@@ -11,5 +11,7 @@
 !.config/wezterm/**
 
 !.claude
+!.claude/agents/
+!.claude/agents/**
 !.claude/skills/
 !.claude/skills/**
