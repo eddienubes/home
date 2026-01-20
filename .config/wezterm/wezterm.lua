@@ -68,7 +68,7 @@ config.window_content_alignment = {
 }
 config.window_background_opacity = 1
 config.macos_window_background_blur = 20
-config.enable_scroll_bar = false
+config.enable_scroll_bar = true
 config.initial_cols = 115
 config.initial_rows = 30
 config.max_fps = 120
@@ -138,6 +138,15 @@ config.keys = {
 		key = "Enter",
 		mods = "OPT",
 		action = action.DisableDefaultAssignment,
+	},
+	-- Pass through Shift + Option + F for nvim formatter
+	{
+		key = "f",
+		mods = "OPT|SHIFT",
+		action = action.SendKey({
+			key = "f",
+			mods = "ALT|SHIFT",
+		}),
 	},
 }
 
