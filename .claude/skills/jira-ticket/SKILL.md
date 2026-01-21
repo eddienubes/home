@@ -15,6 +15,7 @@ Ask the user the following questions to gather necessary information:
 
 2. **Issue Type**: What type of issue is this? (e.g., Story, Bug, Task, Epic)
    - If not provided, fetch available issue types for the project using
+   - Default to Task if not specified
 
 3. **Summary/Title**: What is the ticket title/summary?
 
@@ -23,14 +24,21 @@ Ask the user the following questions to gather necessary information:
    - What caused it or why we need it
    - Keep it concise
 
-5. **Definition of Done**: What tasks define this ticket's done state?
-   - Should be a list of concise, straight-to-point tasks
-   - Do NOT write explicit implementation steps - leave that to the implementor
-   - Only include specific steps if the task is very specific (like moving a file, removing code)
+5. **Acceptance Criteria** (varies by issue type):
+   - **For Tasks**: Definition of Done
+     - Should be a list of concise, straight-to-point tasks
+     - Do NOT write explicit implementation steps - leave that to the implementor
+     - Only include specific steps if the task is very specific (like moving a file, removing code)
+   - **For Stories**: Gherkin user stories
+     - Write user stories in Gherkin format (Given/When/Then)
+     - Focus on user behavior and outcomes
+     - Be clear and concise
 
 ## 2. Format the Description
 
-Structure the ticket description in this exact format:
+Structure the ticket description based on issue type:
+
+### For Tasks:
 
 ```
 ## Prerequisites
@@ -43,6 +51,27 @@ Structure the ticket description in this exact format:
 - [Task 1]
 - [Task 2]
 - [Task 3]
+```
+
+### For Stories:
+
+```
+## Prerequisites
+
+[Background context here - be concise]
+[General observations, what caused it, why we need it]
+
+## User Stories
+
+**As a** [type of user]
+**I want** [goal/desire]
+**So that** [benefit/reason]
+
+**Given** [initial context/state]
+**When** [action/event]
+**Then** [expected outcome]
+
+[Additional scenarios as needed]
 ```
 
 ## 3. Create the Ticket
@@ -60,6 +89,8 @@ After creating the ticket, confirm with the user by providing:
 
 - Be concise in all sections
 - Focus on the "what" and "why", not the "how"
-- Keep the Definition of Done high-level unless the task is very specific
+- **For Tasks**: Keep the Definition of Done high-level unless the task is very specific
+- **For Stories**: Use Gherkin format (Given/When/Then) to describe user behavior and expected outcomes
 - Use proper markdown formatting in the description
 - If any required information is missing, ask the user before proceeding
+- Default to Task issue type if not explicitly specified
