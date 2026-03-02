@@ -1,34 +1,34 @@
 {
   "version": 2,
   "plugins": {
-    "serena@claude-plugins-official": [
-      {
-        "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/serena/236752ad9ab3",
-        "version": "236752ad9ab3",
-        "installedAt": "2026-02-06T16:40:03.192Z",
-        "lastUpdated": "2026-02-06T16:40:03.192Z",
-        "gitCommitSha": "236752ad9ab36029b648bfd94707944760242768"
-      }
-    ],
     "typescript-lsp@claude-plugins-official": [
       {
         "scope": "user",
         "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/typescript-lsp/1.0.0",
         "version": "1.0.0",
-        "installedAt": "2026-02-06T17:24:23.071Z",
-        "lastUpdated": "2026-02-06T17:24:23.071Z",
-        "gitCommitSha": "236752ad9ab36029b648bfd94707944760242768"
+        "installedAt": "2026-02-12T09:01:42.493Z",
+        "lastUpdated": "2026-02-12T09:01:42.493Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
       }
     ],
-    "pyright-lsp@claude-plugins-official": [
+    "serena@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/pyright-lsp/1.0.0",
-        "version": "1.0.0",
-        "installedAt": "2026-02-06T17:24:39.209Z",
-        "lastUpdated": "2026-02-06T17:24:39.209Z",
-        "gitCommitSha": "236752ad9ab36029b648bfd94707944760242768"
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/serena/55b58ec6e564",
+        "version": "55b58ec6e564",
+        "installedAt": "2026-02-12T09:21:01.311Z",
+        "lastUpdated": "2026-02-25T12:52:11.873Z",
+        "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
+      }
+    ],
+    "github@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/github/55b58ec6e564",
+        "version": "55b58ec6e564",
+        "installedAt": "2026-02-24T18:23:59.654Z",
+        "lastUpdated": "2026-02-25T12:52:11.871Z",
+        "gitCommitSha": "99e11d95926936deb21c3fa29a098511573100d1"
       }
     ]
   }

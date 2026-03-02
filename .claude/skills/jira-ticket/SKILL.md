@@ -48,9 +48,9 @@ Structure the ticket description based on issue type:
 
 ## Definition of done
 
-- [Task 1]
-- [Task 2]
-- [Task 3]
+- Task 1
+- Task 2
+- Task 3
 ```
 
 ### For Stories:
@@ -94,3 +94,4 @@ After creating the ticket, confirm with the user by providing:
 - Use proper markdown formatting in the description
 - If any required information is missing, ask the user before proceeding
 - Default to Task issue type if not explicitly specified
+- Always format symbols such as class names, function names, paths and code snippet using quotes for readable highlighting in Jira interface
