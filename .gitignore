@@ -15,6 +15,7 @@
 !.claude/agents/**
 !.claude/skills/
 !.claude/skills/**
+.claude/plugins/cache
 !.claude/plugins/
 !.claude/plugins/**
 
