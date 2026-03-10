@@ -17,3 +17,6 @@
 !.claude/skills/**
 !.claude/plugins/
 !.claude/plugins/**
+
+!.agents
+!.agents/skills
