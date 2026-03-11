@@ -14,20 +14,20 @@
     "serena@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/serena/bd041495bd2a",
-        "version": "bd041495bd2a",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/serena/b36fd4b75301",
+        "version": "b36fd4b75301",
         "installedAt": "2026-02-12T09:21:01.311Z",
-        "lastUpdated": "2026-03-11T12:31:34.930Z",
+        "lastUpdated": "2026-03-12T10:40:42.279Z",
         "gitCommitSha": "2cd88e7947b7382e045666abee790c7f55f669f3"
       }
     ],
     "github@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/github/bd041495bd2a",
-        "version": "bd041495bd2a",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/github/b36fd4b75301",
+        "version": "b36fd4b75301",
         "installedAt": "2026-02-24T18:23:59.654Z",
-        "lastUpdated": "2026-03-11T12:31:34.932Z",
+        "lastUpdated": "2026-03-12T10:40:42.276Z",
         "gitCommitSha": "99e11d95926936deb21c3fa29a098511573100d1"
       }
     ]
