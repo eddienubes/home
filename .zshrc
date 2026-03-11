@@ -138,5 +138,4 @@ alias peon="bash ~/.claude/hooks/peon-ping/peon.sh"
 [ -f ~/.claude/hooks/peon-ping/completions.bash ] && source ~/.claude/hooks/peon-ping/completions.bash
 
 # Span new live chrome instance for agentic purposes
-alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=/tmp/agent \ 
-    --remote-debugging-port=9223"
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=/tmp/agent --remote-debugging-port=9223"
