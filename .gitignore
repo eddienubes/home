@@ -15,9 +15,11 @@
 !.claude/agents/**
 !.claude/skills/
 !.claude/skills/**
-.claude/plugins/cache
 !.claude/plugins/
 !.claude/plugins/**
+.claude/plugins/cache
 
 !.agents
 !.agents/skills
+
+!.zshrc
